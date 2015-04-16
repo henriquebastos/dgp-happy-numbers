@@ -4,11 +4,10 @@ def sum_of_squares(number):
     return sum(digits)
 
 def happy(number):
-    if number == 4:
-        return False
-
+    box = []
     n = number
-    while n != 1:
+    while n != 1 and n not in box:
+        box.append(n)
         n = sum_of_squares(n)
     return n == 1
 
