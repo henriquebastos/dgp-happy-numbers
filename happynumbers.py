@@ -4,6 +4,9 @@ def sum_of_squares(number):
     return sum(digits)
 
 def happy(number):
+    if number == 4:
+        return False
+
     n = number
     while n != 1:
         n = sum_of_squares(n)
