@@ -1,4 +1,4 @@
-def happy():
+def happy(number):
     pass
 
 
