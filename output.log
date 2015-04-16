@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 5, in <module>
-    assert happy(1) == True
-AssertionError
