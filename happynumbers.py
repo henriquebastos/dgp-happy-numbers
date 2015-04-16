@@ -11,4 +11,5 @@ def happy(number):
 assert happy(1)
 assert happy(10)
 assert happy(100)
+assert happy(130)
 assert not happy(4)
