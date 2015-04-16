@@ -6,9 +6,7 @@ def happy(number):
         for char in string:
             digits.append(int(char))
 
-        total = 0
-        for digit in digits:
-            total += digit
+        total = sum(digits)
 
         return total == 1
 
