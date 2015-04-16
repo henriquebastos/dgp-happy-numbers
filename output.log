@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 4, in <module>
+  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 5, in <module>
     assert happy(1) == True
-TypeError: 'NoneType' object is not callable
+TypeError: happy() takes 0 positional arguments but 1 was given
