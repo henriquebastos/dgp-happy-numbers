@@ -1,6 +1,5 @@
 def sum_of_squares(number):
-    digits = [int(char) ** 2 for char in str(number)]
-    return sum(digits)
+    return sum([int(char) ** 2 for char in str(number)])
 
 def happy(number):
     if number < 10:
