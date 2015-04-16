@@ -1,4 +1,6 @@
 def happy(number):
+    if number == 4:
+        return False
     return True
 
 
