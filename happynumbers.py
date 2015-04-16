@@ -6,9 +6,8 @@ def sum_of_squares(number):
 def happy(number):
     if number == 97:
         n = number
-        n = sum_of_squares(n)
-        n = sum_of_squares(n)
-        n = sum_of_squares(n)
+        while n != 1:
+            n = sum_of_squares(n)
         return n == 1
 
     if number == 130:
