@@ -4,13 +4,10 @@ def sum_of_squares(number):
     return sum(digits)
 
 def happy(number):
-    if number in (1, 10, 100, 97, 130):
-        n = number
-        while n != 1:
-            n = sum_of_squares(n)
-        return n == 1
-
-    return False
+    n = number
+    while n != 1:
+        n = sum_of_squares(n)
+    return n == 1
 
 assert sum_of_squares(130) == 10
 assert happy(1)

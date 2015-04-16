@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 20, in <module>
+    assert not happy(4)
+  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 10, in happy
+    n = sum_of_squares(n)
+  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 3, in sum_of_squares
+    digits = [int(char) ** 2 for char in string]
+  File "/Users/henrique/Me/dojogameplay/happynumbers/happynumbers.py", line 3, in <listcomp>
+    digits = [int(char) ** 2 for char in string]
+KeyboardInterrupt
