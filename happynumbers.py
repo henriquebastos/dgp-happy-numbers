@@ -3,8 +3,8 @@ def happy(number):
         string = str(number)
         total, i = 0, 0
         while i < len(string):
-            total = total + int(string[i])
-            i = i + 1
+            total += int(string[i])
+            i += 1
         return total == 1
 
     if number == 100:
