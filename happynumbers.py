@@ -1,5 +1,5 @@
 def happy(number):
-    if number == 10:
+    if number == 1 or number == 10 or number == 100:
         string = str(number)
         total, i = 0, 0
         while i < len(string):
@@ -7,13 +7,6 @@ def happy(number):
             i += 1
         return total == 1
 
-    if number == 100:
-        string = str(number)
-        total = int(string[0]) + int(string[1]) + int(string[2])
-        return total == 1
-
-    if number == 1:
-        return True
     return False
 
 
