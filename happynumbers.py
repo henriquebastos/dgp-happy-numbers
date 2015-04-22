@@ -1,4 +1,4 @@
-def sum_of_digits():
+def sum_of_digits(number):
     pass
 
 def happy(number):
