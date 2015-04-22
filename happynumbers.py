@@ -8,10 +8,7 @@ def happy(number):
         number = sum_of_digits(number)
 
     if number in (1, 10, 100):
-        string = str(number)
-        digits = [int(char) for char in string]
-        total = sum(digits)
-
+        total = sum_of_digits(number)
         return total == 1
 
     return False
