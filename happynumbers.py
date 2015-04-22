@@ -4,7 +4,8 @@ def sum_of_squares(number):
 def happy(number):
     if number < 10:
         return number in (1, 7)
-    return happy(sum_of_squares(number))
+    next_ = sum(int(char) ** 2 for char in str(number))
+    return happy(next_)
 
 
 assert sum_of_squares(130) == 10
