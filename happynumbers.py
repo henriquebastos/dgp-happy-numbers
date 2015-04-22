@@ -5,7 +5,7 @@ def sum_of_digits(number):
 
 def happy(number):
     if number == 130:
-        return True
+        number = sum_of_digits(number)
 
     if number in (1, 10, 100):
         string = str(number)
