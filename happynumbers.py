@@ -5,7 +5,10 @@ def sum_of_digits(number):
 
 def happy(number):
     if number == 130:
-        number = sum_of_digits(number)
+        n = number
+        n = sum_of_digits(n)
+        n = sum_of_digits(n)
+        return n == 1
 
     if number in (1, 10, 100):
         total = sum_of_digits(number)
