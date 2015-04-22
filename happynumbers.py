@@ -1,3 +1,5 @@
+sum_of_digits = None
+
 def happy(number):
     if number == 130:
         return True
