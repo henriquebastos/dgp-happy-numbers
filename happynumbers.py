@@ -1,4 +1,5 @@
-sum_of_digits = None
+def sum_of_digits():
+    pass
 
 def happy(number):
     if number == 130:
