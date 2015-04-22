@@ -1,5 +1,7 @@
 def sum_of_digits(number):
-    return 10
+    string = str(number)
+    digits = [int(char) for char in string]
+    return sum(digits)
 
 def happy(number):
     if number == 130:
