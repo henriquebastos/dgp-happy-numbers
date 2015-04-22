@@ -11,7 +11,7 @@ def happy(number):
 
     return False
 
-
+assert sum_of_digits(130) == 10
 assert happy(1)
 assert happy(10)
 assert happy(100)
