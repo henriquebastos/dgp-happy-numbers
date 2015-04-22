@@ -1,6 +1,6 @@
 def sum_of_digits(number):
     string = str(number)
-    digits = [int(char) for char in string]
+    digits = [int(char) ** 2 for char in string]
     return sum(digits)
 
 def happy(number):
